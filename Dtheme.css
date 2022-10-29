@@ -1,5 +1,6 @@
 body{
-    background-color: #cbcdcf ;
+    background-image: url("./img/869.webp");
+    background-attachment: fixed;
 }
 
 html {
@@ -8,6 +9,8 @@ html {
 
     box-sizing: border-box;
     padding: 20px;
+
+    
 }
 
 .row {
@@ -42,7 +45,7 @@ div .info {
     flex-direction: column;
     justify-content: center;
     width: 400px;
-    background-color: #5499C7 ;
+    background-color: #EDBB99 ;
     border-radius: 20px;
     padding: 20px;
 }
