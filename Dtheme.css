@@ -1,30 +1,77 @@
+body{
+    background-color: #cbcdcf ;
+}
 
-table, td, tr{
-    table-layout: fixed;
-    width: 100%;
-    text-align: center;
-    border: 1px solid;
+html {
+    font : 1.25vw Arial;
+    color: #1C2833;
+
+    box-sizing: border-box;
     padding: 20px;
 }
 
-h1{
-    box-shadow: 6px 6px 4px rgba(red, green, blue, 0.3), 0 0 5px #999;
-    -webkit-box-shadow: 6px 6px 4px rgba(red, green, blue, 0.3), 0 0 5px #999 ;
-    -moz-box-shadow: 6px 6px 4px rgba(red, green, blue, 0.3), 0 0 5px #999;
+.row {
+    display: flex;
+    justify-content: space-between;
 
-    border-radius: 10px;
-    font: 40px calibri;
-    padding: 10px;
-    margin: 20px auto;
+}
+
+.colmn {
+    display: flex;
+    flex-direction: column;
+}
+
+.erenInfo {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    color: pink;
-
+    padding: 25px;
+    width: 400px;
+}
+.erenInfo img {
+    width: 20vW;
+    border-radius: 10px;
 }
 
-h3{
-    color: midnightblue;
+.row .info {
+    width: 400px;
 }
 
-div {
-    text-align: left;
+div .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    background-color: #5499C7 ;
+    border-radius: 20px;
+    padding: 20px;
 }
+
+div .info a{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+    font : 45px Arial;
+    text-transform: capitalize;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: lighter;
+    text-decoration:underline;
+}
+
+.about {
+    display: flex;
+    justify-content: left;
+    color: black;
+    font-weight: lighter;
+}
+
