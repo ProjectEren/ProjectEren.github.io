@@ -10,12 +10,14 @@ html {
     box-sizing: border-box;
     padding: 20px;
 
+    text-align: center;
+
 }
 
 .row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: cente;
 
 }
 
@@ -27,7 +29,7 @@ html {
 .erenInfo {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     padding: 25px;
     width: 400px;
 }
